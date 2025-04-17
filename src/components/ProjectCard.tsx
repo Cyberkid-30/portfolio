@@ -21,7 +21,7 @@ const ProjectCard = ({ name, description, img, techStack }: Project) => {
             </p>
           ))}
         </div>
-        <div className="my-3 flex gap-4">
+        <div className="mt-5 flex gap-4">
           <a
             target="_blank"
             rel="noopener noreferrer"

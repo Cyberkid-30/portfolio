@@ -8,9 +8,9 @@ import TechStack from "./sections/TechStack";
 
 function App() {
   return (
-    <main className="min-h-screen bg-zinc-900 text-white">
+    <main className="min-h-screen bg-zinc-900 text-white ">
       <Navbar />
-      <section className="max-w-4xl mx-auto px-5 md:px-0">
+      <section className="max-w-4xl mx-auto pb-3 px-5 md:px-0">
         <Hero />
         <TechStack />
         <About />
