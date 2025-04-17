@@ -16,7 +16,7 @@ const Hero = () => {
             x: 0,
             opacity: 1,
           }}
-          transition={{ duration: 1.5 }}
+          transition={{ duration: 1.5, ease: "easeInOut" }}
           className="lg:w-[60%]"
         >
           <p className="md:text-5xl mb-4 text-center md:text-left text-3xl">
@@ -70,7 +70,7 @@ const Hero = () => {
             x: 0,
             opacity: 1,
           }}
-          transition={{ duration: 1.5 }}
+          transition={{ duration: 1.5, ease: "easeInOut" }}
           className="size-[310px] rounded-full bg-gradient-to-r from-orange-500 via-violet-500 to-blue-500 flex items-center justify-center shrink-0 grow-0"
         >
           <img

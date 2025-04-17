@@ -18,7 +18,7 @@ const TechStack = () => {
         transition={{
           duration: 1,
         }}
-        className="grid gap-4 place-content-center md:place-content-start grid-cols-[120px_120px] md:grid-cols-[120px_120px_120px] lg:grid-cols-[120px_120px_120px_120px] xl:grid-cols-[120px_120px_120px_120px_120px]"
+        className="flex gap-5 flex-wrap place-content-center md:place-content-start"
       >
         {TechStackItems.map((item) => (
           <TechCard
