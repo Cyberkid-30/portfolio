@@ -1,14 +1,12 @@
-import { react } from "./assets";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <main className="bg-zinc-900 h-screen">
-      <div className="pt-5">
-        <h1 className="text-3xl text-shadow text-center text-primary font-[poppins] font-extrabold ">
-          Hello world!
-        </h1>
-        <img src={react} alt="" />
-      </div>
+    <main className="min-h-screen bg-zinc-900 text-white">
+      <Navbar />
+      <section className="max-w-5xl mx-auto">
+        
+      </section>
     </main>
   );
 }
