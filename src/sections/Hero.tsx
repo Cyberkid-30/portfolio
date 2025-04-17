@@ -5,10 +5,10 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <section id="hero">
-      <div className="h-auto py-16 md:h-[70vh] md:py-0 flex flex-col-reverse px-5 md:px-0 md:flex-row gap-[50px] items-center">
+      <div className="h-auto py-16 md:h-[90vh] md:py-0 flex flex-col-reverse px-5 md:px-0 md:flex-row gap-[50px] items-center">
         <motion.div
           initial={{
-            x: -100,
+            x: -200,
             opacity: 0.05,
           }}
           animate={{
@@ -53,7 +53,7 @@ const Hero = () => {
 
         <motion.div
           initial={{
-            x: 100,
+            x: 200,
             opacity: 0.05,
           }}
           animate={{
