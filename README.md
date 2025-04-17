@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This site showcases my work, skills, a
 
 ## 🔗 Live Site
 
-[Visit Portfolio](https://your-portfolio-link.com)
+[Visit Portfolio](https://portfolio-dusky-seven-85.vercel.app/)
 
 ## 🛠️ Tech Stack
 
@@ -43,14 +43,6 @@ npm install
 # Start the development server
 npm run dev
 ```
-
-## 📸 Screenshots
-
-_Add a few screenshots of the website (desktop and mobile views)._
-
-## 🤝 Contributing
-
-This is a personal project, but feel free to open issues or suggest improvements!
 
 ## 📬 Contact
 
