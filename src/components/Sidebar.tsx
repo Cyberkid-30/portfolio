@@ -1,31 +1,10 @@
 import { useContext } from "react";
 import { GrClose } from "react-icons/gr";
 import { SidebarContext } from "../context/SidebarContext";
+import { links } from "../constants/Links";
 
 const Sidebar = () => {
   const { toggleSidebar } = useContext(SidebarContext);
-  const links = [
-    {
-      id: 1,
-      name: "Home",
-      href: "#home",
-    },
-    {
-      id: 2,
-      name: "About",
-      href: "#about",
-    },
-    {
-      id: 3,
-      name: "Projects",
-      href: "#projects",
-    },
-    {
-      id: 4,
-      name: "Contact",
-      href: "#contact",
-    },
-  ];
 
   return (
     <div className="bg-zinc-800 size-full  flex items-center justify-center">

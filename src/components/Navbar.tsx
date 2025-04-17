@@ -1,13 +1,14 @@
 import { useEffect, useContext } from "react";
 import { MenuIcon } from "lucide-react";
 import { SidebarContext } from "../context/SidebarContext";
+import { links } from "../constants/Links";
 
 const Navbar = () => {
   const { isVisible, toggleSidebar } = useContext(SidebarContext);
 
   useEffect(() => {
     console.log("Sidebar visibility changed:", isVisible);
-  }, [isVisible]); // Logs whenever `isVisible` changes
+  }, [isVisible]);
 
   return (
     <header
@@ -29,10 +30,11 @@ const Navbar = () => {
 
         <nav className="hidden md:flex">
           <ul className="flex gap-5 text-zinc-400">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            {links.map((link) => (
+              <a href={link.href} key={link.id}>
+                {link.name}
+              </a>
+            ))}
           </ul>
         </nav>
       </div>

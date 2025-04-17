@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className="py-16">
       <h1 className="text-4xl mb-16">About me</h1>
 
-      <div className="flex flex-col gap-10 md:flex-row">
+      <div className="flex flex-col gap-10 md:flex-row overflow-x-hidden">
         <motion.img
           initial={{
             x: -200,
