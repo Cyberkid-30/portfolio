@@ -8,25 +8,6 @@ const Hero = () => {
       <div className="h-[70vh] flex gap-[50px] items-center">
         <motion.div
           initial={{
-            x: -100,
-            opacity: 0.05,
-          }}
-          animate={{
-            x: 0,
-            opacity: 1,
-          }}
-          transition={{ duration: 1.5 }}
-          className="size-[300px] rounded-full bg-gradient-to-r from-orange-500 via-violet-500 to-blue-500 flex items-center justify-center shrink-0 grow-0"
-        >
-          <img
-            className="size-[290px] rounded-full object-cover object-center border-4 border-white"
-            src={Gojo}
-            alt="profile pic"
-          />
-        </motion.div>
-
-        <motion.div
-          initial={{
             x: 100,
             opacity: 0.05,
           }}
@@ -43,7 +24,7 @@ const Hero = () => {
             <span className="text-zinc-400">
               I'm a Frontend Software Developer.
             </span>
-            <span className="text-sm font-bold bg-green-700/30 text-green-600 p-2 rounded-full ml-1">
+            <span className="text-xs font-bold bg-green-700/30 text-green-600 p-2 rounded-full ml-1">
               <span className="text-6xl leading-0">.</span> Open to work
             </span>
           </p>
@@ -68,6 +49,25 @@ const Hero = () => {
               <p>Github</p>
             </a>
           </div>
+        </motion.div>
+
+        <motion.div
+          initial={{
+            x: -100,
+            opacity: 0.05,
+          }}
+          animate={{
+            x: 0,
+            opacity: 1,
+          }}
+          transition={{ duration: 1.5 }}
+          className="size-[260px] rounded-full bg-gradient-to-r from-orange-500 via-violet-500 to-blue-500 flex items-center justify-center shrink-0 grow-0"
+        >
+          <img
+            className="size-[250px] rounded-full object-cover object-center border-4 border-white"
+            src={Gojo}
+            alt="profile pic"
+          />
         </motion.div>
       </div>
     </section>
