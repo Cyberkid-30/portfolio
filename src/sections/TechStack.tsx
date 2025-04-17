@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { TechStackItems } from "../TechStackItems";
+import { TechStackItems } from "../constants/TechStackItems";
 import TechCard from "../components/TechCard";
 
 const TechStack = () => {
   return (
     <section className="py-16">
-      <h1 className="text-4xl mb-10">Tech Stack</h1>
+      <h1 className="text-4xl mb-16">Tech Stack</h1>
       <motion.div
         initial={{
           y: 300,

@@ -3,7 +3,7 @@ import { Gojo } from "../assets";
 const About = () => {
   return (
     <section id="about" className="py-16">
-      <h1 className="text-4xl mb-10">About me</h1>
+      <h1 className="text-4xl mb-16">About me</h1>
 
       <div className="flex flex-col gap-10 md:flex-row">
         <img
@@ -14,14 +14,13 @@ const About = () => {
 
         <div>
           <p className="text-lg text-zinc-400">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sed
-            magnam, ratione reprehenderit deserunt animi odit quidem officia
-            iusto tempore cupiditate! Dolorem voluptatem labore dolorum velit?
-            Culpa, voluptatum accusantium repellendus fugiat, quasi minus
-            repellat in a consequatur ipsum commodi nostrum. Accusantium quos
-            nulla itaque a esse magni, sed dolores non? Laborum soluta dolorum
-            ducimus atque doloremque, odit exercitationem, dolores debitis optio
-            aspernatur vero dicta recusandae.
+            I'm a passionate and driven individual with a strong interest in
+            technology, problem-solving, and continuous learning. Currently
+            pursuing a degree in Computer Science, I enjoy building creative and
+            impactful software solutions, especially in web development and
+            cybersecurity. I’m always eager to take on new challenges,
+            collaborate with others, and grow both personally and
+            professionally.
           </p>
         </div>
       </div>

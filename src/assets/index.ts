@@ -1,5 +1,5 @@
 import LinkedIn from "./icons/linkedin.svg";
-import Github from "./icons/github.svg";
+import Github from "./icons/github-icon.svg";
 import Home from "./icons/home.svg";
 import React from "./icons/react.svg";
 import Next from "./icons/next.svg";

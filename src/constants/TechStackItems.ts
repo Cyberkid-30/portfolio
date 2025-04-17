@@ -1,4 +1,4 @@
-import { TechCardType } from "./types";
+import { TechCardType } from "../types";
 import {
   React,
   Next,
@@ -8,7 +8,7 @@ import {
   HTML,
   CSS,
   Sass,
-} from "./assets";
+} from "../assets";
 
 export const TechStackItems: TechCardType[] = [
   {
