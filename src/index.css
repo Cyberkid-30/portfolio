@@ -1,9 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ovo&display=swap");
+
 @import "tailwindcss";
 
-@theme inline{
+@theme inline {
   --color-primary: #4a90e2;
+  --font-ovo: "Ovo", sans-serif;
 }
 
 @utility text-shadow {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  font-family: var(--font-ovo);
 }
