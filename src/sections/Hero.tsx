@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section>
-      <div className="h-[70vh] flex gap-[50px] items-center">
+    <section id="hero">
+      <div className="h-auto py-16 md:h-[70vh] md:py-0 flex flex-col-reverse px-5 md:px-0 md:flex-row gap-[50px] items-center">
         <motion.div
           initial={{
-            x: 100,
+            x: -100,
             opacity: 0.05,
           }}
           animate={{
@@ -18,25 +18,25 @@ const Hero = () => {
           transition={{ duration: 1.5 }}
           className="lg:w-[60%]"
         >
-          <p className="text-5xl mb-4">
+          <p className="md:text-5xl mb-4 text-center md:text-left text-3xl">
             {" "}
-            Hey, I'm Kwabena Eyiah Phandoh.{" "}
+            Hi 👋, I'm Kwabena Eyiah Phandoh,{" "}
             <span className="text-zinc-400">
-              I'm a Frontend Software Developer.
+              a Frontend Software Developer.
             </span>
             <span className="text-xs font-bold bg-green-700/30 text-green-600 p-2 rounded-full ml-1">
-              <span className="text-6xl leading-0">.</span> Open to work
+              Open to work
             </span>
           </p>
 
           <div className="flex items-center">
             <a href="" className="flex gap-2 mr-auto">
               <img src={Home} alt="" width={24} height={24} />
-              <p>Ghana, Accra.</p>
+              <p className="text-zinc-400">Ghana, Accra.</p>
             </a>
             <a href="" className="flex gap-2 mr-4">
               <img src={LinkedIn} alt="" width={24} height={24} color="white" />{" "}
-              <p>LinkedIn</p>
+              <p className="text-zinc-400">LinkedIn</p>
             </a>
             <a href="" className="flex gap-2">
               <img
@@ -46,14 +46,14 @@ const Hero = () => {
                 width={24}
                 height={24}
               />
-              <p>Github</p>
+              <p className="text-zinc-400">Github</p>
             </a>
           </div>
         </motion.div>
 
         <motion.div
           initial={{
-            x: -100,
+            x: 100,
             opacity: 0.05,
           }}
           animate={{
