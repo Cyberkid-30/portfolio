@@ -10,6 +10,7 @@ import HTML from "./icons/html5.svg";
 import Tailwind from "./icons/tailwindcss.svg";
 import Sass from "./icons/sass.png";
 import Gojo from "./photos/Gojo.jpeg";
+import Gamehub from "./photos/gamehub.png";
 
 export {
   LinkedIn,
@@ -24,4 +25,5 @@ export {
   Tailwind,
   Sass,
   Gojo,
+  Gamehub,
 };
