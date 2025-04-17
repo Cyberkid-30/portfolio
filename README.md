@@ -1,6 +1,6 @@
 # 💼 Personal Portfolio Website
 
-Welcome to my personal portfolio website! This site showcases my work, skills, and experience as a Full-Stack Developer. Built to highlight projects, share my journey, and make it easy to get in touch.
+Welcome to my personal portfolio website! This site showcases my work, skills, and experience as a Frontend Developer. Built to highlight projects, share my journey, and make it easy to get in touch.
 
 ## 🔗 Live Site
 
