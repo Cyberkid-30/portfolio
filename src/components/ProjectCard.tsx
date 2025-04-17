@@ -16,9 +16,12 @@ const ProjectCard = ({ name, description, img, techStack }: Project) => {
         <h3 className="mb-2">Tech stack:</h3>
         <div className="flex gap-4 flex-wrap text-zinc-400">
           {techStack?.map((item) => (
-            <p key={item} className="leading-1">
+            <li
+              key={item}
+              className="leading-1 px-4 py-2 list-none rounded-full bg-zinc-800/30"
+            >
               {item}
-            </p>
+            </li>
           ))}
         </div>
         <div className="mt-5 flex gap-4">

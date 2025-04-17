@@ -7,14 +7,14 @@ const Projects = () => {
       <h1 className="text-4xl mb-16">Projects</h1>
       <motion.div
         initial={{
-          y: 200,
+          y: 100,
           opacity: 0.05,
         }}
         whileInView={{
           y: 0,
           opacity: 1,
         }}
-        transition={{ duration: 1.5, ease: "easeInOut" }}
+        transition={{ duration: 1, ease: "easeInOut" }}
         className="flex gap-3 flex-wrap place-content-center md:place-content-start"
       >
         {ProjectItems.map((item) => (

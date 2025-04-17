@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <hr className="text-zinc-700 h-0.5 mb-5" />
-      <p className="flex items-center gap-5 text-zinc-400 mb-3">
+      <p className="flex items-center gap-5 text-zinc-400 md:text-xl mb-3">
         <FaMailBulk /> janphandoh@gmail.com
       </p>
       <p className="text-center text-zinc-400">

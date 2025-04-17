@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <section id="hero">
-      <div className="h-auto py-16 md:h-[90vh] md:py-0 flex flex-col-reverse px-5 md:px-0 md:flex-row gap-[50px] items-center">
+      <div className="py-16 md:h-[90vh] md:py-0 flex flex-col-reverse px-5 md:px-0 md:flex-row gap-[50px] items-center">
         <motion.div
           initial={{
             x: -200,
@@ -16,7 +16,7 @@ const Hero = () => {
             x: 0,
             opacity: 1,
           }}
-          transition={{ duration: 1.5, ease: "easeInOut" }}
+          transition={{ duration: 1, ease: "easeInOut" }}
           className="lg:w-[60%]"
         >
           <p className="md:text-5xl mb-4 text-center md:text-left text-3xl">
@@ -25,7 +25,7 @@ const Hero = () => {
             <span className="text-zinc-400">
               a Frontend Software Developer.
             </span>
-            <span className="text-xs font-bold bg-green-700/30 text-green-600 p-2 rounded-full ml-1 ">
+            <span className="text-xs inline-block md:inline font-bold bg-green-700/30 text-green-600 p-2 rounded-full ml-1 ">
               Open to work
             </span>
           </p>

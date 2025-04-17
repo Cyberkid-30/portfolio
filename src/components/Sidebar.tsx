@@ -8,7 +8,7 @@ const Sidebar = () => {
     {
       id: 1,
       name: "Home",
-      href: "#hero",
+      href: "#home",
     },
     {
       id: 2,
