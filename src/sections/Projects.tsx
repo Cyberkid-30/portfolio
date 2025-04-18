@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 import { Projects as ProjectItems } from "../constants/Projects";
 const Projects = () => {
   return (
-    <div id="projects" className="py-16">
+    <div id="projects" className="py-[150px]">
       <h1 className="text-4xl mb-16">Projects</h1>
       <motion.div
         initial={{

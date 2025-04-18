@@ -4,7 +4,7 @@ import TechCard from "../components/TechCard";
 
 const TechStack = () => {
   return (
-    <section className="py-16">
+    <section className="py-[100px]">
       <h1 className="text-4xl mb-16">Tech Stack</h1>
       <motion.div
         initial={{

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section id="about" className="py-16">
+    <section id="about" className="py-[150px]">
       <h1 className="text-4xl mb-16">About me</h1>
 
       <div className="flex flex-col gap-10 md:flex-row overflow-x-hidden">

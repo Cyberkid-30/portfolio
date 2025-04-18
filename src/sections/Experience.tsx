@@ -3,7 +3,7 @@ import { Experiences } from "../constants/Experiences";
 
 const Experience = () => {
   return (
-    <section className="py-16">
+    <section className="py-[150px]">
       <h1 className="text-4xl mb-16">Work Experience</h1>
 
       <div className="flex flex-col gap-10 md:gap-16">
