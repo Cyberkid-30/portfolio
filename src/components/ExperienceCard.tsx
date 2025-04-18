@@ -7,7 +7,7 @@ const ExperienceCard = ({
   place,
 }: ExperienceCardType) => {
   return (
-    <div className="flex flex-col-reverse gap-3 items-start w-full md:w-[80%] md:gap-5 md:flex-row">
+    <div className="flex flex-col-reverse gap-3 items-start pl-4 py-4 w-full border-l-4 border-zinc-600 md:w-[80%] md:gap-5 md:flex-row">
       <h2 className="shrink-0 font-bold text-zinc-400">{year}</h2>
       <div>
         <h3 className="font-bold text-xl">{position} </h3>
