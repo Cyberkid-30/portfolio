@@ -7,7 +7,7 @@ const Sidebar = () => {
   const { toggleSidebar } = useContext(SidebarContext);
 
   return (
-    <div className="bg-zinc-800 size-full  flex items-center justify-center">
+    <div className="bg-zinc-800 size-full relative flex items-center justify-center">
       <div
         onClick={toggleSidebar}
         className="absolute top-5 right-5 cursor-pointer"

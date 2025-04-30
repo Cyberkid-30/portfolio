@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <header
       id="home"
-      className="sticky z-40 left-0 top-0 bg-zinc-900/80 backdrop-blur-sm px-3"
+      className="sticky z-40 left-0 top-0 bg-zinc-900/80 border-b border-b-zinc-600 backdrop-blur-md px-3"
     >
       <div className="max-w-5xl mx-auto py-3 flex items-center justify-between">
         <a className="font-extrabold text-3xl" href="#">

@@ -22,9 +22,7 @@ const Hero = () => {
           <p className="md:text-5xl mb-4 text-center md:text-left text-3xl">
             {" "}
             Hi 👋, I'm Kwabena Eyiah Phandoh,{" "}
-            <span className="text-zinc-400">
-              a Frontend Software Developer.
-            </span>
+            <span className="text-zinc-400">a Frontend Web Developer.</span>
             <span className="text-xs inline-block md:inline font-bold bg-green-700/30 text-green-600 p-2 rounded-full ml-1 ">
               Open to work
             </span>
