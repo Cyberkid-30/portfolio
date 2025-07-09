@@ -2,7 +2,14 @@ import { FaGithub } from "react-icons/fa";
 import { Project } from "../constants/Projects";
 import { Globe } from "lucide-react";
 
-const ProjectCard = ({ name, description, img, techStack }: Project) => {
+const ProjectCard = ({
+  name,
+  description,
+  img,
+  techStack,
+  githubURL,
+  liveURL,
+}: Project) => {
   return (
     <div className="w-[380px] p-4 rounded-md border-2 border-zinc-600">
       <img
@@ -29,7 +36,7 @@ const ProjectCard = ({ name, description, img, techStack }: Project) => {
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-2 flex items-center gap-3 text-xs rounded-full bg-zinc-800/55 hover:bg-zinc-700 transition-colors"
-            href="https://game-hub-eta-lac.vercel.app/"
+            href={liveURL}
           >
             <Globe size={20} />
             LIVE DEMO
@@ -38,7 +45,7 @@ const ProjectCard = ({ name, description, img, techStack }: Project) => {
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-2 flex items-center gap-3 text-xs rounded-full bg-zinc-800/55 hover:bg-zinc-700 transition-colors"
-            href="https://github.com/Cyberkid-30/game-hub"
+            href={githubURL}
           >
             <FaGithub size={20} />
             CODE

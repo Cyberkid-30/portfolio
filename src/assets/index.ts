@@ -11,6 +11,7 @@ import Tailwind from "./icons/tailwindcss.svg";
 import Sass from "./icons/sass.png";
 import Gojo from "./photos/Gojo.jpeg";
 import Gamehub from "./photos/game-hub.png";
+import TicketBounty from "./photos/ticket-bounty.png";
 
 export {
   LinkedIn,
@@ -26,4 +27,5 @@ export {
   Sass,
   Gojo,
   Gamehub,
+  TicketBounty,
 };

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import ProjectCard from "../components/ProjectCard";
-import { Projects as ProjectItems } from "../constants/Projects";
+import { projects as projectItems } from "../constants/Projects";
 const Projects = () => {
   return (
     <div id="projects" className="py-[150px]">
@@ -15,9 +15,9 @@ const Projects = () => {
           opacity: 1,
         }}
         transition={{ duration: 1, ease: "easeInOut" }}
-        className="flex gap-3 flex-wrap place-content-center md:place-content-start"
+        className="flex gap-12 flex-wrap place-content-center md:place-content-start"
       >
-        {ProjectItems.map((item) => (
+        {projectItems.map((item) => (
           <ProjectCard
             id={item.id}
             key={item.id}
@@ -25,6 +25,8 @@ const Projects = () => {
             description={item.description}
             img={item.img}
             techStack={item.techStack}
+            githubURL={item.githubURL}
+            liveURL={item.liveURL}
           />
         ))}
       </motion.div>
