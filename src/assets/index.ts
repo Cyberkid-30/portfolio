@@ -14,6 +14,7 @@ import Gamehub from "./photos/game-hub.png";
 import TicketBounty from "./photos/ticket-bounty.png";
 import TaskFlow from "./photos/task-flow.png";
 import FastAPI from "./icons/FastAPI.svg";
+import Python from "./icons/python.svg";
 
 export {
   LinkedIn,
@@ -32,4 +33,5 @@ export {
   TicketBounty,
   TaskFlow,
   FastAPI,
+  Python,
 };

@@ -8,6 +8,8 @@ import {
   HTML,
   CSS,
   Sass,
+  Python,
+  FastAPI,
 } from "../assets";
 
 export const TechStackItems: TechCardType[] = [
@@ -50,5 +52,15 @@ export const TechStackItems: TechCardType[] = [
     id: 8,
     name: "SCSS",
     img: Sass,
+  },
+  {
+    id: 9,
+    name: "Python",
+    img: Python,
+  },
+  {
+    id: 10,
+    name: "FastAPI",
+    img: FastAPI,
   },
 ];
