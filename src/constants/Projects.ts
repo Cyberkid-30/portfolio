@@ -1,4 +1,4 @@
-import { Gamehub, TicketBounty } from "../assets";
+import { Gamehub, TicketBounty, TaskFlow } from "../assets";
 
 export interface Project {
   id: number;
@@ -39,5 +39,15 @@ export const projects: Project[] = [
     ],
     githubURL: "https://github.com/Cyberkid-30/ticket-bounty.git",
     liveURL: "https://ticket-bounty-sooty.vercel.app/",
+  },
+  {
+    id: 3,
+    name: "Task-Flow",
+    description:
+      "A modern, feature-rich task management application built with React and FastAPI. Task-Flow provides an intuitive interface for managing your daily tasks with a beautiful, theme-aware design that adapts to your system preferences.",
+    img: TaskFlow,
+    techStack: ["React", "Tailwind CSS", "FastAPI", "Zustand", "NeonDB"],
+    githubURL: "https://github.com/Cyberkid-30/task-flow-frontend.git",
+    liveURL: "https://task-flow-frontend-jade.vercel.app/",
   },
 ];

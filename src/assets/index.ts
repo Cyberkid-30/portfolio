@@ -12,6 +12,8 @@ import Sass from "./icons/sass.png";
 import Gojo from "./photos/Gojo.jpeg";
 import Gamehub from "./photos/game-hub.png";
 import TicketBounty from "./photos/ticket-bounty.png";
+import TaskFlow from "./photos/task-flow.png";
+import FastAPI from "./icons/FastAPI.svg";
 
 export {
   LinkedIn,
@@ -28,4 +30,6 @@ export {
   Gojo,
   Gamehub,
   TicketBounty,
+  TaskFlow,
+  FastAPI,
 };
